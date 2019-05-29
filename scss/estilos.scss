@@ -1,0 +1,110 @@
+//-----------------------------------------
+            //PATRON DE COLORES
+//-----------------------------------------
+/*
+$texto: red;
+$principal: pink;
+$secundario: orange;
+*/
+/*-------------------
+Estilos de prueba
+--------------------*/
+/*.container{
+    border: 1px solid red;
+}
+
+.row{
+    border: 1px solid blue;
+}
+
+*/
+/*Seleccionar todas las etiquetas que son hijas directas de row*/
+
+/*
+.row>*{
+    border: 3px solid green;
+}
+
+*/
+
+/*...................
+         REM
+...................*/
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    padding: .5rem;
+    margin: 3rem;
+}
+
+html{
+    font-size: 14px;
+}
+
+/*Cuando pase los 768 en adelante, el font-size será de 18px*/
+@media(min-width: 768px){
+    html{
+        font-size: 16px;
+    }
+}
+
+
+.nombre{
+    padding: 1px;
+    background-color: #e9ecef;
+}
+
+.btn-primary{
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.btn-secondary{
+    width: 150px;
+    }
+
+h2{
+    margin-top: 85px;
+    transition: transform .2s;
+}
+
+h2:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    margin-top: 90px;
+}
+
+.container{
+    
+}
+
+.table{
+    margin-top: 80px;
+}
+
+.formulario{
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.boton{
+    width: 90.0312px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.boton-crear:hover{
+    color:white;
+}
+
+.servicios>*{
+    border: 1px solid red;
+}
